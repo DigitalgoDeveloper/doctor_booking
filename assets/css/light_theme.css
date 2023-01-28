@@ -1,0 +1,175 @@
+:root {
+    --color1: #83ccdd;
+    --color2: #222;
+    --color3: white;
+    --color4: #efefef;
+}
+
+body {
+    color: var(--color2);
+    background-color: var(--color3);
+}
+
+.btn1 {
+    background-color: var(--color1);
+    color: var(--color3);
+}
+
+.btn2 {
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+.bg1 {
+    background-color: var(--color1);
+}
+
+.bg2 {
+    background-color: var(--color2);
+}
+
+.bg3 {
+    background-color: var(--color3);
+}
+
+.bg-light-gray {
+    background-color: var(--color4);
+}
+
+.color1 {
+    color: var(--color1);
+}
+
+.color2 {
+    color: var(--color2);
+}
+
+.color3 {
+    color: var(--color3);
+}
+
+.color4 {
+    color: var(--color4);
+}
+
+.border1 {
+    border: 1px solid var(--color1) !important;
+}
+
+/* width */
+
+/* Track */
+::-webkit-scrollbar-thumb {
+    background: var(--color1);
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #e1b1b1;
+    background-color: transparent;
+}
+
+.overlay {
+    background-color: #00000057;
+}
+
+.bottom-shadow {
+    -webkit-box-shadow: 0 8px 5px -6px #EBF6F0;
+    -moz-box-shadow: 0 8px 5px -6px #EBF6F0;
+    box-shadow: 0 8px 5px -6px #EBF6F0;
+}
+
+
+
+/* End general */
+/* Header */
+#top-bar-cart-count {
+    background-color: var(--color1);
+    color: var(--color3);
+}
+
+#header-logo-wrap {
+    box-shadow: 0px 3px 10px #ddd;
+    border: 8px solid #ffffffab;
+}
+
+#call-wrap {
+    box-shadow: 0 1px 8px 2px var(--color3);
+}
+
+/* End Header */
+
+/* Home */
+
+#middle-menu .icon-wrap {
+    box-shadow: 0 1px 8px 2px #ddd;
+}
+
+#categories-wrap button {
+    border: 1px solid #ccc;
+}
+
+#categories-wrap>div.active button {
+    background-color: var(--color1);
+    color: var(--color3);
+}
+
+.toolbar a.active {
+    background-color: var(--color1);
+}
+
+.toolbar a.active .toolbar-icon {
+    background-color: var(--color1);
+}
+
+#filters-wrap {
+    box-shadow: 0px 0px 10px #7e7e7e;
+}
+
+/* End home */
+
+/* popups */
+.overlay-bg {
+    background-color: #00000057;
+}
+
+.page-overlay {
+    background-color: #00000057;
+}
+
+.page {
+    background-color: var(--color3);
+    box-shadow: 0px 0.5rem 2rem rgb(255 255 255) !important;
+}
+
+.close {
+    background-color: var(--color1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+/* end popups */
+#nav-menu-container li {
+    border-bottom: 1px solid #adadad;
+}
+
+
+
+#nav-menu-container li:hover div {
+    background-color: var(--color4);
+}
+
+
+.btn-group>.btn {
+    border: 1px solid var(--color1);
+    color: var(--color1);
+    border-color: var(--color1) !important;
+}
+
+.btn-group>.btn:hover {
+    background-color: var(--color3);
+    color: var(--color1);
+}
+
+.btn-check:checked+.btn {
+    background-color: var(--color1);
+    color: var(--color3);
+}

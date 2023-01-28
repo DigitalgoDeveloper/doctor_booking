@@ -1,0 +1,19 @@
+<div id="tab1" class="active">
+    <?php foreach ($branches as $key => $branch) : ?>
+        <div cat-id="cat<?php echo $branch['id'] ?>" class="single-category-in-list mt-0 p-2">
+            <div>
+                <div class="d-flex category-title mb-2 py-2 border-bottom border-top">
+
+                    <h2>
+                        <?php echo $branch['name'] ?>
+                    </h2>
+                </div>
+                <div class="row">
+                    <?php foreach ($branch['doctors'] as $key => $doctor) :  ?>
+                        <?php include('tab1_doctor.php'); ?>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+    <?php endforeach; ?>
+</div>

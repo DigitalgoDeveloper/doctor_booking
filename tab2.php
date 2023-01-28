@@ -1,0 +1,20 @@
+  <div id="tab2">
+      <?php foreach ($branches as $key => $branch) : ?>
+          <?php //echo '<pre>'; var_dump($branch); 
+            ?>
+
+          <div cat-id="cat<?php echo $branch['id'] ?>" class="single-category-in-list mt-0 p-2">
+              <div>
+                  <div class="d-flex category-title mb-2 py-2 border-bottom border-top">
+                      <h2>
+                          <?php echo $branch['name'] ?>
+                      </h2>
+                  </div>
+                  <?php foreach ($branch['doctors'] as $key => $doctor) :  ?>
+                      <?php include('tab2_doctor.php'); ?>
+                  <?php endforeach; ?>
+              </div>
+          </div>
+      <?php endforeach; ?>
+
+  </div>

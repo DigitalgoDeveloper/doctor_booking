@@ -1,0 +1,150 @@
+body.dark {
+    color: var(--color2);
+    background-color: var(--color3);
+}
+
+.dark .btn {
+    color: var(--color2);
+}
+
+.dark .btn1 {
+    background-color: var(--color1);
+    color: var(--color3);
+}
+
+.dark .btn2 {
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+.dark .bg1 {
+    background-color: var(--color1);
+}
+
+.dark .bg2 {
+    background-color: var(--color2);
+}
+
+.dark .bg-light-gray {
+    background-color: #efefef;
+    color: var(--color3);
+}
+
+.dark .color1 {
+    color: var(--color1);
+}
+
+.dark .color2 {
+    color: var(--color2);
+}
+
+.dark .color3 {
+    color: var(--color3);
+}
+
+/* width */
+
+/* Track */
+::-webkit-scrollbar-thumb {
+    background: var(--color1);
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #e1b1b1;
+    background-color: transparent;
+}
+
+.dark .overlay {
+    background-color: #ffffffeb;
+}
+
+.dark .bottom-shadow {
+    -webkit-box-shadow: 0 8px 5px -6px #2c2c2c;
+    -moz-box-shadow: 0 8px 5px -6px #2c2c2c;
+    box-shadow: 0 8px 5px -6px #2c2c2c;
+}
+
+
+/* End general */
+/* Header */
+.dark #top-bar-cart-count {
+    background-color: var(--color1);
+    color: var(--color3);
+}
+
+.dark #header-logo-wrap {
+    box-shadow: 0px 3px 10px #ddd;
+    border: 8px solid #ffffffab;
+}
+
+.dark #call-wrap {
+    box-shadow: 0 1px 8px 2px var(--color3);
+}
+
+/* End Header */
+
+/* Home */
+
+.dark #middle-menu .icon-wrap {
+    box-shadow: 0 1px 8px 2px #ddd;
+}
+
+.dark #categories-wrap button {
+    border: 1px solid #ccc;
+}
+
+.dark #categories-wrap>div.active button {
+    background-color: var(--color1);
+    color: var(--color3);
+}
+
+.dark .toolbar a.active {
+    background-color: var(--color1);
+}
+
+.dark .toolbar a.active .toolbar-icon {
+    background-color: var(--color1);
+}
+
+.dark #filters-wrap {
+    box-shadow: 0px 0px 10px #7e7e7e;
+}
+
+.dark .toolbar-inner a {
+    background-color: var(--color2);
+}
+
+.dark #filters-trigger {
+    background-color: var(--color2);
+}
+
+.dark #top-bar-cart {
+    background-color: var(--color2);
+}
+
+.dark .category-title img {
+    background-color: var(--color2);
+}
+
+/* End home */
+
+/* popups */
+.dark .overlay-bg {
+    background-color: #ffffffeb;
+}
+
+.dark .page-overlay {
+    background-color: #ffffffeb;
+}
+
+.dark .page {
+    background-color: var(--color3);
+    box-shadow: 0px 0.5rem 2rem rgb(255 255 255) !important;
+}
+
+.dark .close {
+    background-color: var(--color1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+/* end popups */

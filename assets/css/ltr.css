@@ -1,0 +1,29 @@
+@font-face {
+    font-family: avenir-arabic;
+    src: url(fonts/avenir_arabic/Regular.otf);
+    font-weight: regular;
+}
+
+@font-face {
+    font-family: avenir-arabic;
+    src: url(fonts/avenir_arabic/Medium.otf);
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: avenir-arabic;
+    src: url(fonts/avenir_arabic/Black.otf);
+    font-weight: bold;
+}
+
+body {
+    font-family: 'avenir-arabic', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: regular;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {}

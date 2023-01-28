@@ -1,0 +1,44 @@
+    <!-- Doctor -->
+
+    <div class="col-6 col-md-3 col-sm-4 col-xs-6 flex-column mb-2 single-product-in-list 2 " data-product-id="37" data-product-name="test">
+
+        <div class="text-center">
+            <div class="position-relative">
+                <img src="<?php echo $doctor['image']; ?>" alt="" class="rounded product-image" data-product-id="37" data-product-name="test">
+
+
+                <div class="flex-center-content position-absolute product-state <?php echo $doctor['status'] == 'متاح' ? 'available' : 'busy';  ?> px-1 bg3">
+                    <?php echo $doctor['status'] ?>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-info mt-2">
+
+
+            <div class="my-1">
+                <label for="">الاسم: </label>
+                <span>
+                    <?php echo $doctor['name']; ?>
+                </span>
+            </div>
+            <!--  -->
+            <div class="my-1">
+                <label for="">الجنسيه: </label>
+                <span>
+                    <?php echo $doctor['nationality']; ?>
+                </span>
+            </div>
+
+            <div class="my-1 speciality">
+                <?php echo $doctor['speciality'] ?>
+            </div>
+            <div class="my-1 d-flex justify-content-between">
+                <a href="doctor_details.php?branch=<?php echo $branch['id']; ?>&doctor=<?php echo $doctor['id']; ?>" class="btn bg1 me-1 rounded py-1 flex-fill color3" data-product-id="38" data-product-name="test">التفاصيل</a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- /Doctor -->

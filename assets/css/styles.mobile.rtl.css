@@ -1,0 +1,39 @@
+@media only screen and (max-width: 600px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    /* ::-webkit-scrollbar-track {
+        display: none;
+    } */
+
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+
+    #header-container {
+        padding: 0;
+    }
+
+
+    .product-details img {
+        max-width: 250px;
+    }
+
+    #fixed-nav {
+        width: 100vw;
+        margin-right: -12px;
+    }
+
+    #booking-form{
+        width: 75%;
+    }
+}
